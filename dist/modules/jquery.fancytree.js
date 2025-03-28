@@ -7,8 +7,8 @@
  * Released under the MIT license
  * https://github.com/mar10/fancytree/wiki/LicenseInfo
  *
- * @version 2.38.4
- * @date 2024-12-27T23:25:02Z
+ * @version 2.38.5-0
+ * @date @DATE
  */
 
 /** Core Fancytree module.
@@ -6759,13 +6759,13 @@
 		{
 			/** Version number `"MAJOR.MINOR.PATCH"`
 			 * @type {string} */
-			version: "2.38.4", // Set to semver by 'grunt release'
+			version: "2.38.5-0", // Set to semver by 'grunt release'
 			/** @type {string}
 			 * @description `"production" for release builds` */
-			buildType: "production", // Set to 'production' by 'grunt build'
+			buildType: "development", // Set to 'production' by 'grunt build'
 			/** @type {int}
 			 * @description 0: silent .. 5: verbose (default: 3 for release builds). */
-			debugLevel: 3, // Set to 3 by 'grunt build'
+			debugLevel: 4, // Set to 3 by 'grunt build'
 			// Used by $.ui.fancytree.debug() and as default for tree.options.debugLevel
 
 			_nextId: 1,
